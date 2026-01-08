@@ -1,1 +1,9 @@
-@import 'tailwindcss';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: #b9ff66;
+  --dark: #191a23;
+  --gray: #f3f3f3;
+}

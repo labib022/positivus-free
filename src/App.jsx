@@ -1,7 +1,25 @@
-import React from 'react';
+import Navbar from './components/Navbar';
+import Hero from './sections/Hero';
+import Services from './sections/Services';
+import UseCases from './sections/UseCases';
+import Process from './sections/Process';
+import Pricing from './sections/Pricing';
+import Blog from './sections/Blog';
+import Footer from './sections/Footer';
 
-const App = () => {
-  return <div>App</div>;
-};
+function App() {
+  return (
+    <>
+      <Navbar />
+      <Hero />
+      <Services />
+      <UseCases />
+      <Process />
+      <Pricing />
+      <Blog />
+      <Footer />
+    </>
+  );
+}
 
 export default App;
