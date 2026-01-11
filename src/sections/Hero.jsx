@@ -1,4 +1,4 @@
-import Button from '../components/Button.jsx';
+import Button from '../components/Button';
 
 const Hero = () => {
   return (
@@ -17,11 +17,7 @@ const Hero = () => {
       </div>
 
       <div>
-        <img
-          src="https://i.ibb.co/7R0pF1z/megaphone.png"
-          alt="Hero"
-          className="w-full"
-        />
+        <img src={Hero} alt="Hero" className="w-full" />
       </div>
     </section>
   );

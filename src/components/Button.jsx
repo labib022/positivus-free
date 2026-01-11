@@ -4,7 +4,7 @@ const Button = ({ text, variant = 'primary' }) => {
       className={`px-6 py-3 rounded-xl font-medium transition
       ${
         variant === 'primary'
-          ? 'bg-[var(--primary)] text-black hover:bg-lime-400'
+          ? 'bg-black text-white hover:bg-pink-400 hover:text-white'
           : 'border border-black hover:bg-black hover:text-white'
       }`}
     >
